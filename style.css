@@ -11,7 +11,9 @@ body{
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
+    /* cursor: url("./assets/Rod.png") 3 4,auto; */
     overflow: hidden;
+    background-position: right;
 }
 
 #heading{
@@ -135,7 +137,7 @@ body{
 
 .timer{
     background-color: rgba(196, 255, 245, 0.408);
-    height: 24vh;
+    height: 28vh;
     width: 14vw;
     float: right;
     margin-right: 3vh;
@@ -144,7 +146,7 @@ body{
     text-align: center;
     font-size: 8vh;
     box-shadow: 10px 10px 8px #0b1515c2;
-    padding-top: 5vh;
+    padding-top: 2vh;
     color: #000000c7;
 }
 
@@ -239,6 +241,7 @@ body{
     left: 129vh;
     border-radius: 5vh;
     font-size: 3vh;
+    padding-top: 3.5vh;
 }
 #score-board{
     height: 20vh;
@@ -250,7 +253,7 @@ body{
     border-radius: 4vh;
     text-align: center;
     font-size: 10vh;
-    padding-top: 7vh;
+    padding-top: 3vh;
     background-color: rgba(196, 255, 245, 0.408);
     box-shadow: 10px 10px 8px #0b1515c2;
 
@@ -269,661 +272,6 @@ body{
     padding: 1vh;
 
 }
-/* index Page */
-/* @media (max-width:1200px){
-    body{
-        overflow: scroll;
-    }
-    #indexfish{
-        height: 35vh;
-        margin-left: 70vh;
-    }
-    .start-btn{
-        margin-left: 70vh;
-    }
-    #credits{
-        margin-left: 105vh;
-    }
-    
-}
-@media (max-width:1100px){
-    #indexfish{
-        height: 35vh;
-        margin-left: 60vh;
-        margin-top: 5vh;
-    }
-    .start-btn{
-        margin-left: 60vh;
-    }
-    #credits{
-        margin-left: 95vh;
-    }
-    
-}
-@media (max-width:950px){
-    #indexfish{
-        height: 31vh;
-        margin-left: 55vh;
-        margin-top: 4vh;
-    }
-    .start-btn{
-        margin-left: 55vh;
-    }
-    #credits{
-        margin-left: 90vh;
-    }
-    
-}
-
-@media (max-width:875px){
-    #heading{
-        font-size: 16vh;
-        margin-top: 8vh;
-    }
-    #indexfish{
-        height: 31vh;
-        margin-left: 48vh;
-        margin-top: 8vh;
-    }
-    .start-btn{
-        margin-left: 48vh;
-    }
-    #credits{
-        margin-left: 82vh;
-    }
-    
-}
-
-@media (max-width:700px){
-    #heading{
-        font-size: 12vh;
-        margin-top: 8vh;
-    }
-    #indexfish{
-        height: 27vh;
-        margin-left: 40vh;
-        margin-top: 6vh;
-    }
-    .start-btn{
-        margin-left:40vh;
-    }
-    #credits{
-        margin-left: 74vh;
-    }
-    
-}
-@media (max-width:620px){
-    #heading{
-        font-size: 12vh;
-        margin-top: 5vh;
-    }
-    #indexfish{
-        height: 27vh;
-        margin-left: 28vh;
-        margin-top: 8vh;
-    }
-    .start-btn{
-        margin-left:30vh;
-    }
-    #credits{
-        margin-left: 64vh;
-    }
-    
-}
-@media (max-width:520px){
-    #heading{
-        font-size: 12vh;
-        margin-top: 5vh;
-    }
-    #indexfish{
-        height: 27vh;
-        margin-left: 28vh;
-        margin-top: 8vh;
-    }
-    .start-btn{
-        margin-left:20vh;
-    }
-    #credits{
-        margin-left: 55vh;
-    }
-    
-}
-@media (max-width:410px){
-    #heading{
-        font-size: 10vh;
-        margin-top: 5vh;
-    }
-    #indexfish{
-        height: 27vh;
-        margin-left: 18vh;
-        margin-top: 8vh;
-    }
-    .start-btn{
-        margin-left: 15vh;
-    }
-    #credits{
-        margin-left: 45vh;
-    }
-    
-}
-@media (max-width:350px){
-    #heading{
-        font-size: 8vh;
-        margin-top: 5vh;
-    }
-    #indexfish{
-        height: 27vh;
-        margin-left: 10vh;
-        margin-top: 8vh;
-    }
-    .start-btn{
-        margin-left: 4vh;
-    }
-    #credits{
-        margin-left: 36vh;
-    }
-    
-}
-
-/* Instructions Page */
-/* @media (max-width:1250px){
-    #next{
-        margin-left: 84vh;
-    }
-    
-}
-@media (max-width:1000px){
-    #next{
-        margin-left: 60vh;
-    }
-    
-}
-@media (max-width: 830px){
-    .p2p3head{
-        font-size: 15vh;
-    }
-    #next{
-        margin-left: 40vh;
-    }
-    
-}
-@media (max-width: 680px){
-    #next{
-        margin-left: 38vh;
-    }
-    
-}
-
-@media (max-width: 600px){
-    .p2p3head{
-        font-size: 12vh;
-    }
-    #next{
-        margin-left: 30vh;
-    }
-    
-}
-@media (max-width: 470px){
-    .p2p3head{
-        font-size: 9vh;
-    }
-    #next{
-        margin-left: 20vh;
-    }
-}
-@media (max-width: 350px){
-    .p2p3head{
-        font-size: 7vh;
-    }
-    .instrtext{
-        font-size: 4.4vh;
-    }
-    #next{
-        margin-left: 14vh;
-    }
-}
-
-@media (max-width:1300px){
-    .forwidth{
-        width: 182vh;
-    }
-}
-@media (max-width:1200px){
-    .forwidth{
-        width: 164vh;
-    }
-}
-@media(max-width:1100px){
-    .forwidth{
-        width: 151vh;
-    }
-    #play{
-     margin-left: 74vh;   
-    }
-}
-@media(max-width:1000px){
-    .forwidth{
-        width: 135vh;
-    }
-    #play{
-     margin-left: 64vh;   
-    }
-}
-@media(max-width:1100px){
-    .forwidth{
-        width: 131vh;
-    }
-    #play{
-     margin-left: 74vh;   
-    }
-}
-@media(max-width:900px){
-    .p2p3head{
-        font-size: 10vh;
-        margin-top: 6vh;
-    }
-    .forwidth{
-        width: 116vh;
-    }
-    #play{
-     margin-left: 52vh;   
-    }
-}
-@media(max-width:900px){
-    .forwidth{
-        width: 100vh;
-    }
-}
-@media(max-width:800px){
-    .forwidth{
-        width: 89vh;
-    }
-}
-@media(max-width:700px){
-    .forwidth{
-        width: 73vh;
-    }
-    #play{
-        margin-left: 33vh;   
-    }
-}
-@media(max-width:600px){
-    .forwidth{
-        width: 58vh;
-    }
-    #play{
-        margin-left: 24vh;   
-    }
-}
-@media(max-width:600px){
-    .forwidth{
-        width: 58vh;
-    }
-    #play{
-        margin-left: 24vh;   
-    }
-}
-@media(max-width:500px){
-    .p2p3head{
-        font-size: 5vh;
-        
-    }.forwidth{
-        width: 41vh;
-    }
-    #play{
-        margin-left: 17vh;   
-    }
-} */
-/* Game */
-/* @media (max-width:1200px){
-    .bubble{
-        width: 10vw;
-    }
-    .bubbles-container{
-        margin-left: 68vh;
-        gap: 2vh;
-    }
-    #restart{
-        margin-left: 135vh;
-    }
-}
-
-@media (max-width:1050px){
-    .bubble{
-        width: 11vw;
-    }
-    .timer{
-        font-size: 6vh;
-    }
-    .bubbles-container{
-        margin-left: 48vh;
-        gap: 2vh;
-    }
-    #restart{
-        margin-left: 119vh;
-    }
-}
-@media (max-width:970px){
-    .bubble{
-        width: 12vw;
-    }
-    .timer{
-        font-size: 6vh;
-    }
-    .bubbles-container{
-        margin-left: 38vh;
-        gap: 2vh;
-    }
-    #restart{
-        margin-left: 104vh;
-
-    }
-}
-@media (max-width:900px){
-    .bubble{
-        width: 13vw;
-    }
-    .timer{
-        font-size: 6vh;
-    }
-    .bubbles-container{
-        margin-left: 38vh;
-        gap: 2vh;
-    }
-    #restart{
-        margin-left: 104vh;
-
-    }
-}
-@media (max-width:850px){
-    .bubble{
-        width: 13.5vw;
-    }
-    .timer{
-        font-size: 6vh;
-    }
-    .bubbles-container{
-        margin-left: 33vh;
-        gap: 2vh;
-    }
-    #restart{
-        margin-left: 90vh;
-
-    }
-}
-@media (max-width:790px){
-    .bubble{
-        width: 14.4vw;
-    }
-    #score-board{
-        height: 15vh;
-        width: 20vh;
-        padding-top: 4vh;
-    }
-    .timer{
-        font-size: 4.7vh;
-    }
-    .bubbles-container{
-        margin-left: 30vh;
-        gap: 2vh;
-    }
-    #restart{
-        margin-left: 90vh;
-        position: absolute;
-        top: 68vh;
-        right: 40vh;
-    }
-    .gnametext{
-        font-size: 4vh;
-    }
-}
-@media (max-width:790px){
-    .bubble{
-        width: 14.4vw;
-    }
-    #score-board{
-        height: 15vh;
-        width: 20vh;
-        padding-top: 4vh;
-    }
-    .timer{
-        font-size: 4.7vh;
-    }
-    .bubbles-container{
-        margin-left: 30vh;
-        gap: 2vh;
-    }
-    #restart{
-        margin-left: 90vh;
-        position: absolute;
-        top: 68vh;
-        right: 40vh;
-    }
-    .gnametext{
-        font-size: 4vh;
-    }
-}
-@media (max-width:650px){
-    .bubble{
-        width: 16.4vw;
-    }
-    #score-board{
-        height: 10vh;
-        width: 15vh;
-        padding-bottom: 4vh;
-    }
-    .timer{
-        font-size: 4vh;
-    }
-    .bubbles-container{
-        margin-left: 20vh;
-        gap: 2vh;
-    }
-    #restart{
-        margin-left: 90vh;
-        position: absolute;
-        top: 68vh;
-        right: 30vh;
-    }
-    .gnametext{
-        font-size: 3vh;
-    }
-}
-@media(max-width:580px){
-    .bubble{
-        width: 22vw;
-    }
-    #score-board{
-        height: 5vh;
-        width: 10vh;
-        padding-bottom: 10vh;
-    }
-    .timer{
-        font-size: 4vh;
-        height: 10vh;
-        padding-top: 2vh;
-    }
-    .bubbles-container{
-        margin-left: 12vh;
-        gap: 2vh;
-    }
-    #restart{
-        position: absolute;
-        top: 68vh;
-        right: 22vh;
-    }
-    .gnametext{
-        display: none;
-    }
-    
-}
-@media(max-width:500px){
-    .bubble{
-        width: 22vw;
-    }
-    #score-board{
-        height: 2vh;
-        width: 7vh;
-        padding-bottom: 12vh;
-    }
-    .timer{
-        font-size: 4vh;
-        height: 10vh;
-        padding-top: 2vh;
-    }
-    .bubbles-container{
-        margin-left: 10vh;
-        gap: 2vh;
-    }
-    #restart{
-        position: absolute;
-        top: 68vh;
-        right: 16vh;
-    }
-    .gnametext{
-        display: none;
-    }
-    
-}
-@media(max-width:400px){
-    .bubble{
-        width: 25vw;
-    }
-    #score-board{
-        height: 1vh;
-        width: 7vh;
-        padding-top: vh;
-    }
-    .timer{
-        font-size: 4vh;
-        height: 10vh;
-        padding-top: 2vh;
-    }
-    .bubbles-container{
-        margin-left: 6vh;
-        gap: 2vh;
-    }
-    #restart{
-        position: absolute;
-        top: 68vh;
-        right: 12.5vh;
-    }
-    .gnametext{
-        display: none;
-    }
-} */
-/* Game Over */
-/* @media(max-width:1150px){
-    .container{
-        margin-left: 50vh;
-    }
-    #again{
-        margin-left: 74vh;
-    }
-}
-@media (max-width:1000px){
-    .container{
-        margin-left: 34vh;
-    }
-    #again{
-        margin-left: 60vh;
-    }
-}
-@media (max-width:900px){
-    .gameover{
-        font-size: 10vh;
-    }
-    .container{
-        margin-left: 25vh;
-    }
-    #again{
-        margin-left: 47vh;
-    }
-}
-@media (max-width:750px){
-    .gameover{
-        font-size: 10vh;
-    }
-    .container{
-        margin-left: 15vh;
-    }
-    #again{
-        margin-left: 37vh;
-    }
-}
-@media (max-width:600px){
-    .gameover{
-        font-size: 10vh;
-    }
-    .container{
-        margin-left: 2vh;
-    }
-    #again{
-        margin-left: 27vh;
-    }
-}
-@media (max-width:500px){
-    .gameover{
-        font-size: 10vh;
-    }
-    .container{
-        height: 38vh;
-        width: 93vw;
-    }
-    #again{
-        margin-left: 21vh;
-    }
-}
-@media (max-width:400px){
-    .gameover{
-        font-size: 10vh;
-    }
-    .container{
-        height: 38vh;
-        width: 100vw;
-        font-size: 8vh;
-    }
-    #again{
-        margin-left: 12vh;
-    }
-} */ 
-/* 
-@media (max-width:800px){
-    body{
-        overflow: scroll;
-    }
-    #heading{
-        font-size: 27vh;
-        margin-left: -14vh;
-    }
-    #indexfish{
-        position: relative;
-        top: -72vh;
-        left: -6vh;
-    }
-    #start{
-        position: relative;
-        top: -38vh;
-        left: -47vh;
-    }
-    #credits{
-        position: relative;
-        top: -38vh;
-        left: -42vh;
-    }
-    .p2p3head{
-        font-size: 15vh;
-        margin-left: 13vh;
-    }
-    .instrtext{
-        margin-left: 30vh;
-        font-size: 5vh;
-    }
-    #next{
-        margin-right: 10vh;
-    }
-
-} */
 
 @media(max-width:1024px){
     .container{
@@ -938,6 +286,9 @@ body{
     }
     .bubble{
         width: 11vw;
+    }
+    #rod{
+        visibility: hidden;
     }
     .timer{
     margin-right: -41vh;
@@ -972,34 +323,44 @@ body{
         margin-left: 50vh;
     }
     .bubbles-container{    
-        margin-left: 75vh;
+        margin-left: 60vh;
         margin-top: 50vh;
         gap: 2vh;
     }
     .bubble{
-        width: 11vw;
+        width: 15vw;
+    }
+    
+    #hover{
+        height: 16vh;
+        width: 49vh;
+        position: absolute;
+        bottom: 0vh;
+        margin-top: -26vh;
+        left: 37vh;
+        overflow: scroll;
     }
     .timer{
-        margin-right: -77vh;
-    margin-top: -45vh;
+        margin-right: -66vh;
+    margin-top: -75vh;
     padding-top: 2vh;
     font-size: 6vh;
-}
-#restart{
-    margin-left: 160.5vh;
-}
-#indexfish{
-    margin-left: 62vh;
-}
-#start{
-    margin-left: 61vh;
-}
-#credits{
-    margin-left: 93vh;
-}
-.forwidth{
-    width: 104vh;
-}
+    }
+    #restart{
+        margin-left: 145.5vh;
+    }
+    #indexfish{
+        margin-left: 36vh;
+    }
+    #start{
+        margin-left: 36vh;
+    }
+    #credits{
+        margin-left: 70vh;
+    }
+    .forwidth{
+        width: 104vh;
+    }
 }
 
 @media(max-width:450px){
@@ -1007,35 +368,37 @@ body{
     body{
         overflow: scroll;
     }.container{
-        margin-left: 22vh;
+        margin-left: 0vh;
     }
     #again{
         margin-left: 50vh;
     }
-    .bubbles-container{    
-        margin-left: 61vh;
-    margin-top: 57vh;
-    gap: 2vh;
+    .bubbles-container {
+        margin-left: 23vh;
+        margin-top: 40vh;
+        gap: 2vh;
     }
+    #again{
+    margin-left: 18vh;
+    }
+    
     .bubble{
         width: 27vw;
     }
-    .timer{
-    margin-right: -77vh; 
-    /* margin-top: -64vh; */
-    padding-top: 2vh;
-    font-size: 7vh;
-    /* height: 31vh; */
-    width: 30vw;
-    position: relative;
-    top: -30vh;
-    left: 38vh;
+    .timer {
+        margin-right: -77vh;
+        padding-top: 2vh;
+        font-size: 7vh;
+        width: 35vw;
+        position: relative;
+        top: 8vh;
+        left: -45vh;
     }
     #score-board{
         height: 27vh;
     }
     #restart{
-        margin-left: 70.5vh;
+        margin-left: 45.5vh;
         margin-top: 45vh;
     }
     #heading{
@@ -1045,9 +408,9 @@ body{
         margin-left: 12vh;
     }
     .instrtext{
-        font-size: 5vh;
+        font-size: 4vh;
         position: relative;
-        left: 10vh ;
+        left: 2vh;
     }
     #next{
         margin-left: 20vh;
@@ -1058,17 +421,27 @@ body{
     #credits{
         margin-left: 43vh;
     }
-    .forwidth{
+    #hover{
+        height: 16vh;
         width: 49vh;
+        position: absolute;
+        bottom: 20vh;
+        margin-top: -26vh;
+        left: 9vh;
+        overflow: scroll;
+    }
+    .forwidth{
+        width: 62vh;
     }
     .p2p3head{
-        font-size: 15vh;
-        /* margin-left: 25vh; */
+        font-size: 8vh;
     }
     .txtdiv{
-        margin-left: 19vh;
+        margin-left: 3vh;
+        margin-right: 3vh;    
     }
     #play{
         margin-left: 21vh;
     }
+    
 }

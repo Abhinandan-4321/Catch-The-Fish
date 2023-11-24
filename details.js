@@ -1,11 +1,12 @@
-document.addEventListener("DOMContentLoaded", function() {
+//user won't enter until details
+document.addEventListener("DOMContentLoaded", function() { // this function makes sure the function only runs after the DOM content is loaded
     let playButton = document.querySelector("#play");
 
     playButton.addEventListener("click", function() {
         var yourname = document.querySelector(".entername");
         var Gname = document.querySelector(".enterGname");
 
-        if (yourname.value.trim() === '' || Gname.value.trim() === '') {
+        if (yourname.value === '' || Gname.value === '') {
             alert("Please Enter your Details");
         } else {
             localStorage.setItem('gstore', Gname.value);
@@ -13,7 +14,7 @@ document.addEventListener("DOMContentLoaded", function() {
         }
     });
 });
-
-let bgm = new Audio("./assets/John_Bartmann_-_01_-_Mad_Hatter_Tea_Party(chosic.com).mp3")
+//Audio
+let bgm = new Audio("./assets/cottagecore-17463.mp3")
 bgm.loop = true;
 bgm.play()

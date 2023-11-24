@@ -1,6 +1,6 @@
 // timer
 let timer = document.getElementById("timer")
-let time= 2000
+let time = 60;
     let timerun = setInterval(function()
     {
         timer.innerHTML = time
@@ -30,9 +30,6 @@ restart.addEventListener("click",()=>{
 
 
 const bubbles = [...document.querySelectorAll(".bubble")]
-
-
-
 var score = 0;
 let Uscore = document.getElementById("sb")
 
@@ -50,17 +47,16 @@ let Uscore = document.getElementById("sb")
                 bubble.removeChild(img)
                 run()
             }
-        }, 1500)
+        }, 1200)
     }
 
     document.querySelectorAll('.bubble').forEach((bubbleElement)=>{
         bubbleElement.addEventListener('click',(event) => {
-            const clickedElement = event.target; 
             if (bubbleElement.contains(document.querySelector('.fish'))) {
                 document.querySelector('.fish')
                 bubbleElement.innerHTML =''
                 score += 1;
-                localStorage.setItem("score", score);
+                localStorage.setItem("score", score); // score storage
                 // console.log('score is',score)
                 run();
                 Uscore.innerHTML = score
@@ -76,7 +72,7 @@ let tt = document.getElementById("ns")
 tt.innerHTML = pp
 
 //bg music
-let bgm = new Audio("./assets/John_Bartmann_-_01_-_Mad_Hatter_Tea_Party(chosic.com).mp3")
+let bgm = new Audio("./assets/cottagecore-17463.mp3")
 bgm.loop = true;
 bgm.play()
 

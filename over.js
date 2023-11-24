@@ -1,7 +1,8 @@
 let again = document.getElementById("again")
 again.addEventListener("click",()=>{
-    location.href = "./instructions.html"
+    location.href = "./game.html"
 })
+// retrieving stored nickname
 updated = document.getElementById("Scoreto")
 let storedscore = localStorage.getItem("score")
 console.log("the score is",storedscore)
