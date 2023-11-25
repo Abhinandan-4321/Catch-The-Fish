@@ -12,3 +12,18 @@ let sn = localStorage.getItem("gstore")
 
 let upn = document.getElementById("storedname")
 upn.innerHTML = sn;
+
+let arr = [
+    "Better luck next Time",
+    "Good Effort",
+    "You really nailed it",
+    "Keep Practicing",
+    "You're getting better"
+]
+function random(){
+let x;
+x = Math.floor(Math.random() * arr.length)    // created an array and added text to it and using random function to display random text from the array
+return x;
+}
+let rtext = document.getElementById("randomtxt")
+rtext.innerHTML = `${arr[random()]}!!, ${sn} `

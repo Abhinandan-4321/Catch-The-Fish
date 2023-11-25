@@ -1,4 +1,3 @@
-//user won't enter until details
 document.addEventListener("DOMContentLoaded", function() { // this function makes sure the function only runs after the DOM content is loaded
     let playButton = document.querySelector("#play");
 
