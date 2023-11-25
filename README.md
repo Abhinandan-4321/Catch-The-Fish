@@ -7,7 +7,6 @@ In the development of "Catch the Fish," the game leverages a combination of esse
 # What you need to do?
 1. The game screen consists of a grid of bubbles from which fishes will randomly pop up.
 2. Use your mouse or touchscreen to "POP" the fishes as they pop up from their holes.
-
 3. You Get 1 points for each successful pop.
 4. Be Aware of the time limit you have 60 seconds. Try to catch as many as you can.
 # Screenshots
@@ -16,11 +15,14 @@ In the development of "Catch the Fish," the game leverages a combination of esse
 ![Screenshot 2023-11-25 154824](https://github.com/Abhinandan-4321/Catch-The-Fish/assets/144687484/d2fd5258-6068-4164-a24b-78695ec59bdd)
 ![Screenshot 2023-11-25 154847](https://github.com/Abhinandan-4321/Catch-The-Fish/assets/144687484/2d3e191d-951b-44c6-99ed-1fb5eeec241c)
 ![Screenshot 2023-11-25 154943](https://github.com/Abhinandan-4321/Catch-The-Fish/assets/144687484/0c13c52e-0aef-4fc7-b562-87c9ddcdc705)
-
-
+# FIGMA Link
+https://www.figma.com/proto/QuWrZuwBRNp94Ub141Ktgp/Untitled?node-id=2-2&starting-point-node-id=2%3A2&mode=design&t=vWDXuCrZtfRgW0Fx-1
 # Credits
 **Background Music:** [Pixabay](www.pixabay.com)
 
 **Images:** [FreePik](www.freepik.com), [Flaticon](www.flaticon.com.), [Vector](www.vectorstock.images), [PngTree](www.pngtree.com), [Canva](canva.com)
 # Inspiration and Reference 
 This project of mine is been made taking reference from the video on the Whack-a-mole game by Code Grind. Here i have provided with the [link](https://youtu.be/D9ZfzXaCPuI?si=Qev3rImROIZs6R2S) for the same. I have also taken references from ChatGPT.
+# Tools Used
+Visual Studio Code  ----> Coding
+Figma  -----> Designing
