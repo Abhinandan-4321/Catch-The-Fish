@@ -25,4 +25,5 @@ https://www.figma.com/proto/QuWrZuwBRNp94Ub141Ktgp/Untitled?node-id=2-2&starting
 This project of mine is been made taking reference from the video on the Whack-a-mole game by Code Grind. Here i have provided with the [link](https://youtu.be/D9ZfzXaCPuI?si=Qev3rImROIZs6R2S) for the same. I have also taken references from ChatGPT.
 # Tools Used
 Visual Studio Code  ----> Coding
+
 Figma  -----> Designing
