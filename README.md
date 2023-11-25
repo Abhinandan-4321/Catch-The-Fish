@@ -21,4 +21,4 @@ Best Dimensions for checking responsiveness chech on 425x620, 768x620, 1024x620,
 
 **Images:** [FreePik](www.freepik.com), [Flaticon](www.flaticon.com.), [Vector](www.vectorstock.images), [PngTree](www.pngtree.com), [Canva](canva.com)
 # Inspiration and Reference 
-This project of mine is been made taking reference from the video on the Whack-a-mole game by Code Grind. Here i have provided with the [link](https://youtu.be/D9ZfzXaCPuI?si=Qev3rImROIZs6R2S) for the same.
+This project of mine is been made taking reference from the video on the Whack-a-mole game by Code Grind. Here i have provided with the [link](https://youtu.be/D9ZfzXaCPuI?si=Qev3rImROIZs6R2S) for the same. I have also taken references from ChatGPT.
