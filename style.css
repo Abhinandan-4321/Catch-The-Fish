@@ -293,7 +293,7 @@ body{
         margin-left: 69vh;
     }
     .bubbles-container{    
-        margin-left: 84vh;
+        margin-left: 77vh;
         gap: 1vh;
     }
     .bubble{
@@ -353,10 +353,11 @@ body{
         overflow: scroll;
     }
     .timer{
-        margin-right: -66vh;
-    margin-top: -75vh;
+    margin-right: -66vh;
+    margin-top: -79vh;
     padding-top: 2vh;
     font-size: 6vh;
+    width: 30vh;
     }
     #restart{
         margin-left: 145.5vh;
@@ -375,7 +376,7 @@ body{
     }
 }
 
-@media(max-width:450px){
+@media(max-width:450px) and (min-width:370px){
     
     body{
         overflow: scroll;
@@ -386,7 +387,7 @@ body{
         margin-left: 50vh;
     }
     .bubbles-container {
-        margin-left: 23vh;
+        margin-left: 19vh;
         margin-top: 40vh;
         gap: 2vh;
     }
@@ -454,6 +455,123 @@ body{
     }
     #play{
         margin-left: 21vh;
+    }
+    
+}
+@media (min-width:1920px){
+    #indexfish {
+        height: 40vh;
+        margin-left: 63vh;
+        margin-top: 1vh;
+    }
+    #start{
+        margin-left: 65vh;;
+    }
+    #credits{
+        margin-left: 100vh;
+    }
+    #hover{
+        left: 106vh;
+    }
+    .bubble{
+        width: 18vh;
+    }
+    .bubbles-container{
+        gap: 2vh;
+    }
+    #next{
+        margin-left: 73vh;
+    }
+    .label{
+        margin-left: 5vh;
+    }
+    .forwidth{
+        width: 158vh;
+    }
+    .timer{
+        margin-right: -23vh;
+    }
+    #restart{
+        position: relative;
+        top: 31vh;
+        left: -95vh;
+    }
+    .container{
+        margin-left: 48vh;
+    }
+    #again{
+        margin-left: 753px;
+    }
+}
+@media (max-width:360px){
+    #heading{
+        margin-left: 5vh;
+        font-size: 10vh
+    }
+    #indexfish{
+        margin-left: 1vh;
+    }
+    #start{
+        margin-left: 5vh;
+    }
+    #credits{
+        margin-left: 34vh;
+    }
+    #hover {
+        height: 33vh;
+        width: 37vh;
+        position: absolute;
+        bottom: 20vh;
+        margin-top: -23vh;
+        left: 4vh;
+        overflow: scroll;
+    }
+    .p2p3head{
+        font-size: 6vh;
+    }
+    .instrtext{
+        font-size: 3vh;
+        left: 0;
+    }
+    #next{
+        margin-left: 9vh;
+    }
+    .forwidth{
+        width: 37vh;
+    }
+    #play{
+        margin-left: 9vh;
+    }
+    .bubble{
+        width: 17vh;
+    }
+    .timer {
+        margin-right: -77vh;
+        padding-top: 2vh;
+        font-size: 7vh;
+        width: 59vw;
+        position: relative;
+        top: 7vh;
+        left: -45vh;
+    }
+    .txtdiv{
+        margin-left: 4vh;
+        margin-right: 4vh;
+    }
+    .gameOver{
+        font-size: 15vh;
+        margin-left: 21vh;
+    
+    }
+    .container{
+        margin-left: 0;
+    }
+    #randomtxt{
+        font-size: 7vh;
+        margin-left: 12vh;
+    }
+    #again {
+        margin-left: 26vh;
     }
     
 }
